@@ -17,7 +17,7 @@ import com.xy.sharding.service.StudentService;
 import com.xy.sharding.service.UserService;
  
 /**
- * ²âÊÔ·Ö¿â·Ö±í¹æÔò
+ * ï¿½ï¿½ï¿½Ô·Ö¿ï¿½Ö±ï¿½ï¿½ï¿½ï¿½
  * @author liuyazhuang
  *
  */
@@ -43,9 +43,9 @@ public class ShardingJdbcMybatisTest {
     @Test  
     public void testStudentInsert() {  
         Student student = new Student();  
-        student.setStudentId(21);  
-        student.setAge(21);  
-        student.setName("hehe");  
+        student.setStudentId(30);  
+        student.setAge(23);  
+        student.setName("xuyong");  
         Assert.assertEquals(studentService.insert(student), true);  
     }  
  
